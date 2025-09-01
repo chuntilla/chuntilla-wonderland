@@ -1,5 +1,5 @@
-[23:07:54] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.16.14
-[23:07:54] [main/INFO]: Loading 43 mods:
+[23:23:43] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.16.14
+[23:23:43] [main/INFO]: Loading 57 mods:
 	- fabric-api 0.132.0+1.21.8
 	   |-- fabric-api-base 0.5.0+cd8c0daa2c
 	   |-- fabric-api-lookup-api-v1 1.6.101+946bf4c32c
@@ -51,58 +51,85 @@
 	   \-- fabric-permissions-api-v0 0.4.1
 	- java 21
 	- minecraft 1.21.8
-[23:07:54] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/chuntilla-wonderland/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[23:07:54] [main/INFO]: Compatibility level set to JAVA_21
-[23:07:55] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[23:08:03] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[23:08:03] [main/INFO]: Found new data pack file/Sleep-[1.21.6+]-v4.1.5.zip, loading it automatically
-[23:08:06] [main/INFO]: Loaded 1407 recipes
-[23:08:06] [main/INFO]: Loaded 1576 advancements
-[23:08:07] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.529 ms
-[23:08:07] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[23:08:07] [Server thread/INFO]: Loading properties
-[23:08:07] [Server thread/INFO]: Default game type: SURVIVAL
-[23:08:07] [Server thread/INFO]: Generating keypair
-[23:08:07] [Server thread/INFO]: Starting Minecraft server on *:25565
-[23:08:07] [Server thread/INFO]: Using epoll channel type
-[23:08:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[23:08:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[23:08:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[23:08:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[23:08:07] [Server thread/INFO]: Preparing level "world"
-[23:08:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[23:08:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[23:08:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[23:08:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[23:08:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[23:08:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[23:08:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[23:08:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[23:08:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[23:08:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[23:08:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[23:08:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[23:08:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[23:08:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[23:08:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[23:08:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[23:08:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[23:08:15] [Server thread/INFO]: Time elapsed: 7645 ms
-[23:08:15] [Server thread/INFO]: Done (8.239s)! For help, type "help"
-[23:08:28] [Server thread/INFO]: Cacharro7[/127.176.38.27:54643] logged in with entity id 4 at (342.28794633091564, 75.0, -669.4383653883102)
-[23:08:28] [Server thread/INFO]: Cacharro7 joined the game
-[23:10:40] [Server thread/INFO]: [Cacharro7: Set own game mode to Creative Mode]
-[23:11:02] [Server thread/INFO]: [Cacharro7: Set own game mode to Survival Mode]
-[23:11:25] [Server thread/INFO]: Cacharro7 lost connection: Disconnected
-[23:11:25] [Server thread/INFO]: Cacharro7 left the game
-[23:11:31] [Server thread/INFO]: Stopping the server
-[23:11:31] [Server thread/INFO]: Stopping server
-[23:11:31] [Server thread/INFO]: Saving players
-[23:11:31] [Server thread/INFO]: Saving worlds
-[23:11:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[23:11:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[23:11:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[23:11:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:11:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:11:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:11:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+	- skinshuffle 2.9.4+1.21.6
+	   |-- com_drewnoakes_metadata-extractor 2.19.0
+	   |-- com_konghq_unirest-java_standalone 3.11.9
+	   |-- commons-validator_commons-validator 1.7
+	   |-- org_jsoup_jsoup 1.16.1
+	   |-- spruceui 8.0.0+1.21.6
+	   \-- yet_another_config_lib_v3 3.7.1+1.21.6-fabric
+	        |-- com_twelvemonkeys_common_common-image 3.12.0
+	        |-- com_twelvemonkeys_common_common-io 3.12.0
+	        |-- com_twelvemonkeys_common_common-lang 3.12.0
+	        |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	        |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	        |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	        |-- org_quiltmc_parsers_gson 0.2.1
+	        \-- org_quiltmc_parsers_json 0.2.1
+[23:23:43] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/chuntilla-wonderland/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[23:23:43] [main/INFO]: Compatibility level set to JAVA_21
+[23:23:44] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:23:44] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:23:44] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[23:23:52] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[23:23:55] [main/INFO]: Loaded 1407 recipes
+[23:23:55] [main/INFO]: Loaded 1576 advancements
+[23:23:55] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.598 ms
+[23:23:55] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[23:23:55] [Server thread/INFO]: Loading properties
+[23:23:55] [Server thread/INFO]: Default game type: SURVIVAL
+[23:23:55] [Server thread/INFO]: Generating keypair
+[23:23:56] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:23:56] [Server thread/INFO]: Using epoll channel type
+[23:23:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:23:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:23:56] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:23:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:23:56] [Server thread/INFO]: Preparing level "world"
+[23:23:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[23:24:02] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[23:24:02] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[23:24:02] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[23:24:02] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[23:24:02] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[23:24:02] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[23:24:02] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[23:24:02] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[23:24:02] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[23:24:02] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[23:24:02] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[23:24:02] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[23:24:02] [Worker-Main-3/INFO]: Preparing spawn area: 34%
+[23:24:02] [Server thread/INFO]: Time elapsed: 6032 ms
+[23:24:02] [Server thread/INFO]: Done (6.522s)! For help, type "help"
+[23:25:02] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[23:26:13] [Server thread/INFO]: Cacharro7[/127.176.38.27:38909] logged in with entity id 4 at (348.7617308546186, 75.0, -666.3377642373894)
+[23:26:13] [Server thread/INFO]: Cacharro7 joined the game
+[23:27:23] [Server thread/INFO]: ZyberXMC[/127.145.218.165:48301] logged in with entity id 751 at (295.31707911221486, 70.0, -825.3147222862859)
+[23:27:23] [Server thread/INFO]: ZyberXMC joined the game
+[23:27:36] [Server thread/INFO]: [Not Secure] <ZyberXMC> fag
+[23:27:45] [Server thread/INFO]: [Not Secure] <Cacharro7> wtf
+[23:27:46] [Server thread/INFO]: [Not Secure] <ZyberXMC> helo
+[23:27:51] [Server thread/INFO]: [Not Secure] <Cacharro7> tienes todo no
+[23:27:54] [Server thread/INFO]: [Not Secure] <ZyberXMC> si
+[23:27:55] [Server thread/INFO]: [Not Secure] <Cacharro7> osea no perdiste nada
+[23:28:00] [Server thread/INFO]: [Not Secure] <ZyberXMC> non
+[23:28:02] [Server thread/INFO]: [Not Secure] <Cacharro7> a ya
+[23:28:30] [Server thread/INFO]: [Not Secure] <Cacharro7> le agrege el mod para que el hueva no tenga que salir cada 5 minutos
+[23:28:37] [Server thread/INFO]: [Not Secure] <Cacharro7> mejor dicho datapack
+[23:28:45] [Server thread/INFO]: [Not Secure] <ZyberXMC> finalmente
+[23:28:48] [Server thread/INFO]: [Not Secure] <ZyberXMC> no more insomnio
+[23:30:24] [Server thread/INFO]: [Not Secure] <ZyberXMC> zzz
+[23:30:29] [Server thread/INFO]: [Not Secure] <ZyberXMC> omg
+[23:30:33] [Server thread/INFO]: [Not Secure] <Cacharro7> q
+[23:30:38] [Server thread/INFO]: [Not Secure] <ZyberXMC> it woke
+[23:30:47] [Server thread/INFO]: [Not Secure] <Cacharro7> a cierto
+[23:31:07] [Server thread/INFO]: [Not Secure] <Cacharro7> luego lo configuro para que sean 2 jugadores
+[23:31:14] [Server thread/INFO]: [Not Secure] <Cacharro7> aurita parece que solo basta uno XD
+[23:31:19] [Server thread/INFO]: [Not Secure] <ZyberXMC> si xff
+[23:31:43] [Server thread/INFO]: [Not Secure] <Cacharro7> aurita vuelvo me olvide ponerle algo a mi minorcraft
+[23:31:46] [Server thread/INFO]: [Not Secure] <ZyberXMC> ye
+[23:31:48] [Server thread/INFO]: Cacharro7 lost connection: Disconnected
+[23:31:48] [Server thread/INFO]: Cacharro7 left the game
+[23:32:15] [Server thread/INFO]: [Not Secure] [Server] im jew
+[23:32:18] [Server thread/INFO]: [Not Secure] <ZyberXMC> aha
