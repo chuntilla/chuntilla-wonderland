@@ -7,16 +7,18 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2025-09-02 00:36:24 +0000",
       "minecraft:old_growth_pine_taiga": "2025-08-19 23:29:05 +0000",
       "minecraft:forest": "2025-08-20 00:15:31 +0000",
       "minecraft:taiga": "2025-08-19 23:28:02 +0000",
+      "minecraft:river": "2025-08-19 23:54:32 +0000",
+      "minecraft:stony_shore": "2025-09-02 00:36:20 +0000",
+      "minecraft:lush_caves": "2025-08-19 23:44:47 +0000",
+      "minecraft:dripstone_caves": "2025-08-30 00:31:10 +0000",
       "minecraft:deep_dark": "2025-08-31 00:28:37 +0000",
       "minecraft:cherry_grove": "2025-08-31 23:33:49 +0000",
-      "minecraft:river": "2025-08-19 23:54:32 +0000",
       "minecraft:meadow": "2025-08-20 00:15:37 +0000",
-      "minecraft:lush_caves": "2025-08-19 23:44:47 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-08-20 00:21:46 +0000",
-      "minecraft:dripstone_caves": "2025-08-30 00:31:10 +0000",
       "minecraft:plains": "2025-08-29 01:29:17 +0000"
     },
     "done": false
@@ -2957,6 +2959,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2025-09-02 00:36:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/fletching_table": {
     "criteria": {
       "has_flint": "2025-09-01 23:47:59 +0000"
@@ -2966,6 +2974,12 @@
   "minecraft:recipes/misc/gold_ingot_from_gold_block": {
     "criteria": {
       "has_gold_block": "2025-09-01 23:44:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2025-09-02 00:36:30 +0000"
     },
     "done": true
   },
@@ -3026,6 +3040,12 @@
   "minecraft:recipes/redstone/observer": {
     "criteria": {
       "has_quartz": "2025-09-01 23:59:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2025-09-02 00:36:30 +0000"
     },
     "done": true
   },
