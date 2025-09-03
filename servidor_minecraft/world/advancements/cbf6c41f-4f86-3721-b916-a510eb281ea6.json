@@ -3879,6 +3879,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate_slab": "2025-09-03 02:59:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_boots": {
     "criteria": {
       "has_leather": "2025-09-03 01:01:32 +0000"
