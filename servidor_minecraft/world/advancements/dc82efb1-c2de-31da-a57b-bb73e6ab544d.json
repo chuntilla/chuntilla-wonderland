@@ -3194,9 +3194,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/crafter": {
+  "jodek:utility": {
     "criteria": {
-      "has_dropper": "2025-09-02 23:14:07 +0000"
+      "tick": "2025-09-02 22:52:04 +0000"
+    },
+    "done": true
+  },
+  "jodek:root": {
+    "criteria": {
+      "tick": "2025-09-02 22:52:04 +0000"
+    },
+    "done": true
+  },
+  "jodek:sleep": {
+    "criteria": {
+      "tick": "2025-09-02 22:52:04 +0000"
     },
     "done": true
   },
@@ -3209,18 +3221,6 @@
   "minecraft:recipes/decorations/pale_oak_fence": {
     "criteria": {
       "has_planks": "2025-09-02 23:11:51 +0000"
-    },
-    "done": true
-  },
-  "jodek:utility": {
-    "criteria": {
-      "tick": "2025-09-02 22:52:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/repeater": {
-    "criteria": {
-      "has_redstone_torch": "2025-09-02 23:14:59 +0000"
     },
     "done": true
   },
@@ -3254,18 +3254,6 @@
     },
     "done": true
   },
-  "jodek:root": {
-    "criteria": {
-      "tick": "2025-09-02 22:52:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/grindstone": {
-    "criteria": {
-      "has_stone_slab": "2025-09-02 23:14:30 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/pale_oak_pressure_plate": {
     "criteria": {
       "has_planks": "2025-09-02 23:11:51 +0000"
@@ -3278,9 +3266,27 @@
     },
     "done": true
   },
-  "jodek:sleep": {
+  "minecraft:recipes/redstone/crafter": {
     "criteria": {
-      "tick": "2025-09-02 22:52:04 +0000"
+      "has_dropper": "2025-09-02 23:14:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2025-09-02 23:14:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2025-09-02 23:14:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/lightning_rod_with_villager_no_fire": {
+    "criteria": {
+      "lightning_rod_with_villager_no_fire": "2025-09-03 00:30:28 +0000"
     },
     "done": true
   },
