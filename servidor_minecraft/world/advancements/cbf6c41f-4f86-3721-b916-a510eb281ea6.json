@@ -3495,6 +3495,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2025-09-03 02:22:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/book": {
     "criteria": {
       "has_paper": "2025-09-03 02:19:38 +0000"
@@ -3549,6 +3555,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2025-09-03 02:22:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/red_dye_from_rose_bush": {
     "criteria": {
       "has_rose_bush": "2025-09-03 02:12:26 +0000"
@@ -3573,6 +3585,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2025-09-03 02:22:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/green_harness": {
     "criteria": {
       "has_dried_ghast": "2025-09-02 23:48:20 +0000"
@@ -3594,6 +3612,12 @@
   "minecraft:recipes/building_blocks/quartz_pillar": {
     "criteria": {
       "has_quartz_block": "2025-09-03 00:03:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2025-09-03 02:22:30 +0000"
     },
     "done": true
   },
