@@ -3290,6 +3290,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2025-09-03 02:11:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2025-09-03 02:06:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/yellow_harness": {
     "criteria": {
       "has_dried_ghast": "2025-09-03 00:37:24 +0000"
@@ -3302,15 +3314,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2025-09-03 02:11:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/red_harness": {
     "criteria": {
       "has_dried_ghast": "2025-09-03 00:37:24 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2025-09-03 02:11:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/green_harness": {
     "criteria": {
       "has_dried_ghast": "2025-09-03 00:37:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2025-09-03 02:11:37 +0000"
     },
     "done": true
   },
@@ -3389,6 +3419,12 @@
   "minecraft:recipes/combat/brown_harness": {
     "criteria": {
       "has_dried_ghast": "2025-09-03 00:37:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2025-09-03 02:06:33 +0000"
     },
     "done": true
   },
