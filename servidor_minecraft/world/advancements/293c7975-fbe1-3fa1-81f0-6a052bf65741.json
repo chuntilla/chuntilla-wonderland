@@ -3177,6 +3177,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2025-09-03 02:19:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2025-09-03 02:19:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/lime_harness": {
     "criteria": {
       "has_dried_ghast": "2025-09-03 00:37:30 +0000"
@@ -3192,6 +3204,12 @@
   "minecraft:recipes/decorations/anvil": {
     "criteria": {
       "has_iron_block": "2025-09-03 01:11:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2025-09-03 02:19:38 +0000"
     },
     "done": true
   },
