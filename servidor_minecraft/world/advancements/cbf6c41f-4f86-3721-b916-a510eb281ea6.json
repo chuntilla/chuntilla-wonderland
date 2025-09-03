@@ -3452,6 +3452,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2025-09-03 01:01:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2025-09-03 01:01:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/magenta_harness": {
     "criteria": {
       "has_dried_ghast": "2025-09-02 23:48:20 +0000"
@@ -3491,6 +3503,12 @@
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2025-09-02 23:43:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2025-09-03 01:01:32 +0000"
     },
     "done": true
   },
@@ -3554,9 +3572,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2025-09-03 01:01:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite": {
     "criteria": {
       "has_quartz": "2025-09-02 23:44:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/saddle": {
+    "criteria": {
+      "has_leather": "2025-09-03 01:01:32 +0000"
     },
     "done": true
   },
@@ -3662,6 +3692,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2025-09-03 01:01:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/light_blue_harness": {
     "criteria": {
       "has_dried_ghast": "2025-09-02 23:48:20 +0000"
@@ -3701,6 +3737,12 @@
   "minecraft:recipes/building_blocks/quartz_slab_from_stonecutting": {
     "criteria": {
       "has_quartz_block": "2025-09-03 00:03:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2025-09-03 01:01:32 +0000"
     },
     "done": true
   },
